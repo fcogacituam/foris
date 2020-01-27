@@ -1,10 +1,11 @@
 # Problema de código en Foris 
 ## SELECCIÓN DE PARADIGMA DE PROGRAMACIÓN
 
-En un principio pensé en utilizar paradigma de programación estructurada, ya que al ser un problema relativamente pequeño, y con un objetivo claro, se puede dividir el código en pequeñas funciones que lo hacen bastante legible y sencillo. Al ir organizando la estructura del proyecto, me di cuenta que habían ciertos componentes que podían transformarse a Clases, para hacer su interacción más intuitiva y escalable, a demás del dato del número de sala; éste me hizo pensar que el problema planteado puede ser sólo una primera entrega de un proyecto más grande, o bien, un módulo de un proyecto que también utilizará el dato de la sala para sacar reportes. Por esta razón se decidió orientar a objetos, para que los métodos de las clases sean accesibles y re utilizables desde otros módulos.
+En un principio pensé en utilizar paradigma de programación estructurada, ya que al ser un problema relativamente pequeño, y con un objetivo claro, se puede dividir el código en pequeñas funciones que lo hacen bastante legible y sencillo. Al ir organizando la estructura del proyecto, me di cuenta que habían ciertos componentes que podían transformarse a Clases, para hacer su interacción más intuitiva y escalable, a demás del dato del número de sala; éste me hizo pensar que el problema planteado puede ser sólo una primera entrega de un proyecto más grande, o bien, un módulo de un proyecto que también utilizará el dato de la sala para sacar reportes. Sumado al requerimiento de orientar el desarrollo al testing, se hace mucho más fácil testear una aplicación por los métodos de una clase. Por estas dos razones se decidió orientar a objetos.
 
 
 ## SOBRE EL CÓDIGO 
+
 
 Ejecutar con `php reporte.php example.txt`, se puede seleccionar otro archivo, utilizando la ruta relativa a la ruta de `reporte.php`.
 
