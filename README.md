@@ -10,8 +10,7 @@ En un principio pensé en utilizar paradigma de programación estructurada, ya q
 1. Descargar bundle
 2. dirigirse a la carpeta donde se desempaquetará: `cd <route/to/path>`
 3. inicializar git: `git init`
-4. desempaquetar bundle: `git pull <nombre_de_bundle> <nombre_carpeta_destino>`
-5. entrar al proyecto:  `cd <nombre_carpeta_destino>`
+4. desempaquetar bundle: `git pull <nombre_de_bundle>`
 5. Instalar librerías: `composer install`
 
 Ejecutar con `php reporte.php example.txt`, se puede seleccionar otro archivo, utilizando la ruta relativa a la ruta de `reporte.php`.
