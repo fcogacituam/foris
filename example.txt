@@ -1,0 +1,12 @@
+Student Marco
+Student David
+Student Fran
+Presence Marco 1 09:00 10:00 R100
+Presence Javier 4 10:22 12:30 R205
+Student Javier
+Presence David 5 14:02 15:46 F505
+Presence Marco 2 12:00 13:00 F505
+Presence Javier 6 14:55 15:30 R100
+Student Marco
+Presence Javier 1 10:00 12:00 F505
+Presence Marco 5 15:00 15:02 R100
