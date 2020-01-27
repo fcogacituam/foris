@@ -6,8 +6,17 @@ En un principio pensé en utilizar paradigma de programación estructurada, ya q
 
 ## SOBRE EL CÓDIGO 
 
+### Instalación
+1. Descargar bundle
+2. dirigirse a la carpeta donde se desempaquetará: `cd <route/to/path>`
+3. inicializar git: `git init`
+4. desempaquetar bundle: `git pull <nombre_de_bundle> <nombre_carpeta_destino>`
+5. entrar al proyecto:  `cd <nombre_carpeta_destino>`
+5. Instalar librerías: `composer install`
 
 Ejecutar con `php reporte.php example.txt`, se puede seleccionar otro archivo, utilizando la ruta relativa a la ruta de `reporte.php`.
+Para revisar el correcto funcionamiento de las pruebas unitarias: `vendor/bin/phpunit tests/`
+
 
 El código verifica si se pasa como parámetro algun archivo, verifica que exista, y que su tamaño no exceda los 2Mb.
 Si pasa esas validaciones, abre el archivo y lo convierte en un array, luego se comienza a trabajar con las posiciones de ese array.
